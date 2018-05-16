@@ -147,8 +147,23 @@ p {
 }
 
 /* 3.5 Gallery */
+.gallery .gallery-pic {
+  background-color: #FFFFFF;
+}
+
 .gallery .gallery-pic a {
   max-width: 100%;
+  color: #656060;
+  text-align: center;
+}
+
+.gallery .gallery-pic a:hover, .gallery .gallery-pic a:focus {
+  color: #009865;
+  text-decoration: none;
+}
+
+.gallery .gallery-pic a:visited {
+  color: #656060;
 }
 
 .gallery .gallery-pic a img {

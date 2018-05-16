@@ -132,8 +132,18 @@ p{
 /* 3.5 Gallery */
 .gallery{
   .gallery-pic{
+    background-color: $white;
     a{
       max-width: 100%;
+      color: $dark_gray;
+      text-align: center;
+      &:hover, &:focus{
+        color: $main_color;
+        text-decoration: none;
+      }
+      &:visited{
+        color: $dark_gray;
+      }
       img{
         max-width: 100%;
       }
