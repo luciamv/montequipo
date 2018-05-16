@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Montequipo | Contacto</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+    <script src="js/jquery-2.0.3.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/montequipo.svg" height="35px" alt="" />
+            <img src="img/mexico.png" width="30px" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html#quienes_somos">¿Quiénes somos?</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prensas <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="prensa-columnas.html">Prensas de columnas</a></li>
+                <li><a class="dropdown-item" href="prensa-laboratorio.html">Prensas de laboratorio</a></li>
+                <li><a class="dropdown-item" href="prensa-tipo-c.html">Prensas tipo C</a></li>
+                <li><a class="dropdown-item" href="prensa-tipo-h.html">Prensas tipo H</a></li>
+                <li><a class="dropdown-item" href="prensas-chatarra.html">Prensas para chatarra</a></li>
+                <li><a class="dropdown-item" href="prensas-pet.html">Prensas para PET</a></li>
+                <li><a class="dropdown-item" href="prensas-especiales.html">Prensas especiales</a></li>
+              </ul>
+            </li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <!-- <li><a href="#">English Version</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 normal-padding">
+          <div id="map"></div>
+        </div>
+        <div class="col-md-6 col-sm-12 normal-padding">
+          <form class="contact-form" method="POST" action="mail.php">
+            <input type="text" name="nombre" value="Nombre">
+            <input type="email" name="email" value="E-mail">
+            <textarea name="mensaje" rows="8" cols="80"></textarea>
+            <input type="submit" value="Enviar">
+            <!-- <button type="button" name="button" class="btn-outline-primary">Enviar</button> -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <p>Montequipo S.A. de C.V.</p>
+            <p>© Derechos reservados</p>
+          </div>
+          <div class="col-md-3 col-sm-12 column-direction">
+            <a href="index.html" class="no-margin footer-links">Inicio</a>
+            <a href="index.html#quienes-somos" class="no-margin footer-links">¿Quiénes somos?</a>
+            <a href="index.html#tipos-prensas" class="no-margin footer-links">Prensas</a>
+            <a href="contacto.html" class="no-margin footer-links">Contacto</a>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <p class="bold-text no-margin">Informes</p>
+            <p>montequipo@montequipo.com</p>
+            <a href="https://www.youtube.com/user/montequipo" target="_blank">
+              <img src="img/youtube.svg" alt="" width="65px" height="auto"/>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <p class="bold-text no-margin">Teléfonos</p>
+            <p>(55) 5393-9708 / (55) 5374-0088</p>
+            <p class="bold-text no-margin">Fax:</p>
+            <p>(55) 5562-9757</p>
+            <p class="bold-text no-margin">Lada sin Costo:</p>
+            <p>01-800-112-9757</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 19.506854, lng: -99.218754};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSK14rpqgFNs7A-fA8UHLNFQiHOEcg6ys&callback=initMap">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

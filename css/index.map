@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/index.css",
+	"sources": [
+		"../scss/index.scss",
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n.index-slider{\n  height: 65vh;\n  background-image: url('../img/prensas-montequipo.jpg');\n\n}\n\n.main-slider{\n  height: 65vh;\n  .index-slide{\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n  }\n  .slick-list, .slick-track{\n    height: 100%;\n  }\n}\n\n.tipo-prensa{\n  margin-bottom: 1.5em;\n  width: 95%;\n  .prensa-title{\n    margin-top: 1em;\n    height: 50px;\n    display: flex;\n    align-items: center;\n    font-weight: 300;\n  }\n  .prensa-thumbnail{\n    width: 100%;\n    min-height: 200px;\n    background-color: antiquewhite;\n    img{\n      width: 100%;\n    }\n  }\n}\n\n.clients-slider{\n  .client-image{\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n    height: 100px;\n    img{\n      width: 100px;\n      height: auto;\n      margin-bottom: 15px;\n    }\n  }\n}\n",
+		"// COLORS\n\n$main_color: #009865;\n$light_gray: #f1f1f1;\n$medium_gray: #b3b3b3;\n$dark_gray: #353535;\n$white: #FFFFFF;\n"
+	],
+	"mappings": ";AAEA,AAAA,aAAa,CAAA;EACX,MAAM,EAAE,IAAK;EACb,gBAAgB,EAAE,oCAAG;CAEtB;;;AAED,AAAA,YAAY,CAAA;EACV,MAAM,EAAE,IAAK;CAad;;;AAdD,AAEE,YAFU,CAEV,YAAY,CAAA;EACV,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;EACd,WAAW,EAAE,MAAO;EACpB,eAAe,EAAE,MAAO;EACxB,mBAAmB,EAAE,MAAO;EAC5B,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,KAAM;CACxB;;;AAVH,AAWE,YAXU,CAWV,WAAW,EAXb,AAWe,YAXH,CAWG,YAAY,CAAA;EACvB,MAAM,EAAE,IAAK;CACd;;;AAGH,AAAA,YAAY,CAAA;EACV,aAAa,EAAE,KAAM;EACrB,KAAK,EAAE,GAAI;CAgBZ;;;AAlBD,AAGE,YAHU,CAGV,aAAa,CAAA;EACX,UAAU,EAAE,GAAI;EAChB,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;EACd,WAAW,EAAE,MAAO;EACpB,WAAW,EAAE,GAAI;CAClB;;;AATH,AAUE,YAVU,CAUV,iBAAiB,CAAA;EACf,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,KAAM;EAClB,gBAAgB,EAAE,YAAa;CAIhC;;;AAjBH,AAcI,YAdQ,CAUV,iBAAiB,CAIf,GAAG,CAAA;EACD,KAAK,EAAE,IAAK;CACb;;;AAIL,AACE,eADa,CACb,aAAa,CAAA;EACX,OAAO,EAAE,eAAgB;EACzB,WAAW,EAAE,MAAO;EACpB,eAAe,EAAE,MAAO;EACxB,MAAM,EAAE,KAAM;CAMf;;;AAXH,AAMI,eANW,CACb,aAAa,CAKX,GAAG,CAAA;EACD,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;EACb,aAAa,EAAE,IAAK;CACrB",
+	"names": []
+}

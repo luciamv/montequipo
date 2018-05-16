@@ -1,0 +1,183 @@
+/* I N D E X
+    1. General styles
+      1.1 Margins and paddings
+      1.2 Fonts
+    2. Alignment styles
+    3. Components
+      3.1 Navbar
+      3.2 Footer
+      3.3 Buttons
+      3.4 Slider
+      3.5 Gallery
+      3.6 Contact form
+*/
+/* 1. G E N E R A L  S T Y L E S */
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 13px;
+  padding-top: 50px;
+  color: #656060;
+}
+
+.gray-background {
+  background-color: #f1f1f1;
+}
+
+/* 1.1 Margins and paddings */
+.no-padding {
+  padding: 0 0 0 0;
+}
+
+.small-padding {
+  padding: 1em 0;
+}
+
+.normal-padding {
+  padding: 1.5em 0;
+}
+
+.big-padding {
+  padding: 3.5em 0;
+}
+
+.no-margin {
+  margin: 0 0 0 0;
+}
+
+.small-top-down-margin {
+  margin: 1em 0;
+}
+
+/* 1.2 Fonts */
+p {
+  font-size: 1em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.white-text {
+  color: #FFF;
+}
+
+.title-line {
+  width: 50px;
+  border-top: 2px solid #009865;
+  margin: 1.2em auto 0 auto;
+}
+
+/* 2. A L I G N M E N T  S T Y L E S  */
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex !important;
+  justify-content: center;
+}
+
+.justify-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column-direction {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. C O M P O N E N T S */
+/* 3.1 Navbar */
+.navbar-default {
+  background: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #009865 !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 5px;
+}
+
+/* 3.2 Footer */
+.footer {
+  padding: 3em 0;
+  background-color: #353535;
+  color: #fff;
+}
+
+.footer .footer-links {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0.3em;
+}
+
+.footer .footer-links:hover {
+  color: #009865;
+}
+
+/* 3.3 Buttons */
+.btn-outline-primary {
+  border-color: #009865;
+  color: #009865;
+}
+
+.btn-outline-primary:hover {
+  background-color: #009865;
+  border-color: #009865;
+  color: #FFFFFF;
+}
+
+/* 3.4 Slider */
+.slick-prev:before, .slick-next:before {
+  color: #009865;
+}
+
+/* 3.5 Gallery */
+.gallery .gallery-pic a {
+  max-width: 100%;
+}
+
+.gallery .gallery-pic a img {
+  max-width: 100%;
+}
+
+#swipebox-overlay {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* 3.6 Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 5px;
+  padding: 5px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid #009865;
+}
+
+.contact-form button {
+  padding: 8px 20px;
+  align-self: flex-end;
+}

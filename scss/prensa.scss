@@ -1,0 +1,47 @@
+@import 'variables';
+
+.prensa-header{
+  height: 15vh;
+  background-color: $light_gray;
+  .prensa-title{
+    color: $main_color;
+    margin: 0;
+  }
+}
+.specs-table{
+  table{
+    width: 100%;
+    tr > td:first-child{
+      font-weight: 600;
+      color: $main_color;
+    }
+    td{
+      border: 1px solid $medium_gray;
+      padding: 7px;
+    }
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.gallery{
+  column-count: 4;
+  padding: 15px;
+  .gallery-pic{
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+  }
+}

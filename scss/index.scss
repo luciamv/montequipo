@@ -1,0 +1,64 @@
+@import 'variables';
+
+.index-slider{
+  height: 65vh;
+  background-image: url('../img/prensas-montequipo.jpg');
+
+}
+
+.main-slider{
+  height: 65vh;
+  .index-slide{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+      text-align: center;
+    }
+  }
+  .slick-list, .slick-track{
+    height: 100%;
+  }
+}
+
+.tipo-prensa{
+  margin-bottom: 1.5em;
+  width: 95%;
+  .prensa-title{
+    margin-top: 1em;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .prensa-thumbnail{
+    width: 100%;
+    min-height: 200px;
+    background-color: antiquewhite;
+    img{
+      width: 100%;
+    }
+  }
+  .btn-more-information{
+    margin: 1em 0em;
+  }
+}
+
+.clients-slider{
+  .client-image{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    img{
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+  }
+}

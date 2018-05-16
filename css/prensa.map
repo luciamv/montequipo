@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/prensa.css",
+	"sources": [
+		"../scss/prensa.scss",
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n.prensa-header{\n  height: 15vh;\n  background-color: $light_gray;\n  .prensa-title{\n    color: $main_color;\n    margin: 0;\n  }\n}\n.specs-table{\n  table{\n    width: 100%;\n    tr > td:first-child{\n      font-weight: 600;\n      color: $main_color;\n    }\n    td{\n      border: 1px solid $medium_gray;\n      padding: 7px;\n    }\n  }\n}\n.embed-container {\n  position: relative;\n  padding-bottom: 56.25%;\n  height: 0;\n  overflow: hidden;\n  max-width: 100%;\n}\n.embed-container iframe, .embed-container object, .embed-container embed {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.gallery{\n  column-count: 4;\n  padding: 15px;\n  .gallery-pic{\n    background-color: #eee;\n    display: inline-block;\n    margin: 0 0 1em;\n    width: 100%;\n  }\n}\n",
+		"// COLORS\n\n$main_color: #009865;\n$light_gray: #f1f1f1;\n$medium_gray: #b3b3b3;\n$dark_gray: #353535;\n$white: #FFFFFF;\n"
+	],
+	"mappings": ";AAEA,AAAA,cAAc,CAAA;EACZ,MAAM,EAAE,IAAK;EACb,gBAAgB,ECDL,OAAO;CDMnB;;;AAPD,AAGE,cAHY,CAGZ,aAAa,CAAA;EACX,KAAK,ECJI,OAAO;EDKhB,MAAM,EAAE,CAAE;CACX;;;AAEH,AACE,YADU,CACV,KAAK,CAAA;EACH,KAAK,EAAE,IAAK;CASb;;;AAXH,AAGW,YAHC,CACV,KAAK,CAEH,EAAE,GAAG,EAAE,AAAA,YAAY,CAAA;EACjB,WAAW,EAAE,GAAI;EACjB,KAAK,ECbE,OAAO;CDcf;;;AANL,AAOI,YAPQ,CACV,KAAK,CAMH,EAAE,CAAA;EACA,MAAM,EAAE,GAAG,CAAC,KAAK,CCdT,OAAO;EDef,OAAO,EAAE,GAAI;CACd;;;AAGL,AAAA,gBAAgB,CAAC;EACf,QAAQ,EAAE,QAAS;EACnB,cAAc,EAAE,MAAO;EACvB,MAAM,EAAE,CAAE;EACV,QAAQ,EAAE,MAAO;EACjB,SAAS,EAAE,IAAK;CACjB;;;AACD,AAAiB,gBAAD,CAAC,MAAM,EAAE,AAAiB,gBAAD,CAAC,MAAM,EAAE,AAAiB,gBAAD,CAAC,KAAK,CAAC;EACvE,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,CAAE;EACP,IAAI,EAAE,CAAE;EACR,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CACd;;;AACD,AAAA,QAAQ,CAAA;EACN,YAAY,EAAE,CAAE;EAChB,OAAO,EAAE,IAAK;CAOf;;;AATD,AAGE,QAHM,CAGN,YAAY,CAAA;EACV,gBAAgB,EAAE,IAAK;EACvB,OAAO,EAAE,YAAa;EACtB,MAAM,EAAE,OAAQ;EAChB,KAAK,EAAE,IAAK;CACb",
+	"names": []
+}

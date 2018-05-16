@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/media_queries.css",
+	"sources": [
+		"../scss/media_queries.scss"
+	],
+	"sourcesContent": [
+		"// Small devices (landscape phones, 576px and up)\n@media (max-width: 576px) {\n  .gallery{\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .gallery{\n    column-count: 2;\n  }\n}\n\n// Medium devices (tablets, 768px and up)\n@media (min-width: 768px) {\n  .gallery{\n    column-count: 4;\n  }\n}\n\n// Large devices (desktops, 992px and up)\n// @media (min-width: 992px) {\n//\n// }\n\n// Extra large devices (large desktops, 1200px and up)\n// @media (min-width: 1200px) {\n// }\n"
+	],
+	"mappings": "AACA,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,QAAQ,CAAA;IACN,YAAY,EAAE,CAAE;GACjB;;;AAEH,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,QAAQ,CAAA;IACN,YAAY,EAAE,CAAE;GACjB;;;AAIH,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAA,QAAQ,CAAA;IACN,YAAY,EAAE,CAAE;GACjB",
+	"names": []
+}
