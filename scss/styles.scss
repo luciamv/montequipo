@@ -111,6 +111,15 @@ p{
       color: $main_color;
     }
   }
+  .telephone-text{
+    color: $white;
+    text-decoration: none;
+    font-weight: normal;
+    &:hover{
+      text-decoration: none;
+      color: $main_color;
+    }
+  }
 }
 
 /* 3.3 Buttons */
