@@ -26,8 +26,7 @@
 }
 
 .tipo-prensa{
-  margin-bottom: 1.5em;
-  width: 95%;
+  width: 100%;
   .prensa-title{
     margin-top: 1em;
     height: 50px;
@@ -37,12 +36,11 @@
     text-transform: uppercase;
   }
   .prensa-thumbnail{
+    height: 240px;
     width: 100%;
-    min-height: 200px;
-    background-color: antiquewhite;
-    img{
-      width: 100%;
-    }
+    background: $light_gray;
+    display: flex;
+    justify-content: center;
   }
   .btn-more-information{
     margin: 1em 0em;
