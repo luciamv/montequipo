@@ -1,16 +1,28 @@
 @media (max-width: 576px) {
+  .body {
+    font-size: 15px;
+    background-color: red;
+  }
   .gallery {
     column-count: 1;
   }
 }
 
 @media (min-width: 576px) {
+  .body {
+    font-size: 15px;
+    background-color: red;
+  }
   .gallery {
     column-count: 2;
   }
 }
 
 @media (min-width: 768px) {
+  .body {
+    font-size: 15px;
+    background-color: red;
+  }
   .gallery {
     column-count: 4;
   }
