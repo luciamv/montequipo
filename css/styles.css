@@ -57,6 +57,10 @@ a:hover {
   margin-top: 1em;
 }
 
+.small-left-right-padding {
+  padding: 0 1em;
+}
+
 /* 1.2 Fonts */
 p {
   font-size: 1em;
