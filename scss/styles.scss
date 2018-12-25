@@ -20,6 +20,12 @@ body{
   padding-top: 50px;
   color: $dark_gray;
 }
+a{
+  &:hover{
+    color: $main_color;
+    text-decoration: none;
+  }
+}
 .gray-background{
   background-color: $light_gray;
 }
@@ -41,6 +47,9 @@ body{
 }
 .small-top-down-margin{
   margin: 1em 0;
+}
+.small-top-margin{
+  margin-top: 1em;
 }
 
 
